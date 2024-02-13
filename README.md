@@ -15,19 +15,19 @@ The first step was to preview the dataset (lending_data.csv) to determine what d
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-  --The accuracy of the logistic regression model using the original dataset got 95% of predictions correct.  
-  --The confusion matrix revealed there were 56 false negatives, meaning this model incorrectly predicted 56 risky loan applicants (1's) and approved them for loans. This is refelected in the risky loan recall score of 91%. 
-  --Precision and recall for healthy loans were high, at 100% and 99% respectively. 
+ 
+  * The accuracy of the logistic regression model using the original dataset got 95% of predictions correct.  
+  * The confusion matrix revealed there were 56 false negatives, meaning this model incorrectly predicted 56 risky loan applicants (1's) and approved them for loans. This is refelected in the risky loan recall score of 91%. 
+  * Precision and recall for healthy loans were high, at 100% and 99% respectively. 
              
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
-  --The accuracy of the resampled model was 99%.
-  --Precision and recall for healthy loans were identical to model 1, at 100% and 99% respectively.
-  --False positives were reduced from 56 to 4 in model 2.  This translated to a higher recall score of 99% for risky loan applicants.   
+ 
+  * The accuracy of the resampled model was 99%.
+  * Precision and recall for healthy loans were identical to model 1, at 100% and 99% respectively.
+  * False positives were reduced from 56 to 4 in model 2.  This translated to a higher recall score of 99% for risky loan applicants.   
 
 ## Summary
 
