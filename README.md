@@ -1,6 +1,3 @@
-# deep-learning-challenge
-Module 21
-
 # Module 20 Report Template
 
 ## Overview of the Analysis
